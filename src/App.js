@@ -19,12 +19,12 @@ function App() {
       <h1>Full Name Display</h1>
       <form className={styles.form} onSubmit={handleSubmit}>
         <label >First Name:</label>
-        <input id="firstName" type="text" name="firstName"required></input>
+        <input id="firstName" type="text" name="firstName" required></input>
         <br/>
         <label >Last Name:</label>
-        <input id="lastName" type="text" name="lastName"required></input>
+        <input id="lastName" type="text" name="lastName" required></input>
         <br/>
-        <button>Submit</button>
+        <button type="submit">Submit</button>
       </form>
 
       {fullname!=""&&<div>Full Name: {fullname}</div>}
